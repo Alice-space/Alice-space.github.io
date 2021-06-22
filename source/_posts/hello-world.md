@@ -1,6 +1,5 @@
 ---
 title: 你好！世界 👋
-comment: false
 thumbnail: '/img/bg.jpg'
 ---
 
