@@ -26,9 +26,19 @@ jobs:
           npx hexo clean
           npx hexo generate
       
-      - name: Deploy 🚀 
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      # - name: Deploy 🚀 
+      #   uses: JamesIves/github-pages-deploy-action@4.1.4
+      #   with:
+      #     BRANCH: "gh-pages" # The branch the action should deploy to.
+      #     FOLDER: public # The folder the action should deploy.
+      #     CLEAN: true # Automatically remove deleted files from the deploy branch
+      
+      - name: Setup Ossutil
+        uses: manyuanrong/setup-ossutil@v2.0
         with:
-          BRANCH: "gh-pages" # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          endpoint: oss-cn-beijing.aliyuncs.com
+          access-key-id: ${{ secrets.ALIYUN_ACCESSKEY_ID }}
+          access-key-secret: ${{ secrets.ALIYUN_ACCESSKEY_SECRET }}
+
+      - name: cp files to aliyun
+        run: ossutil cp -rf public oss://alicespace-cn/
