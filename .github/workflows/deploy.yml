@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️ 
         uses: actions/checkout@v2.3.4
         with:
           persist-credentials: false
@@ -26,10 +26,9 @@ jobs:
           npx hexo clean
           npx hexo generate
       
-      - name: Deploy 🚀
+      - name: Deploy 🚀 
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: "gh-pages" # The branch the action should deploy to.
           FOLDER: public # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
