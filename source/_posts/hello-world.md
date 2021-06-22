@@ -1,38 +1,57 @@
 ---
-title: Hello World
+title: 你好！世界 👋
+comment: false
+thumbnail: '/img/bg.jpg'
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+本博客采用 [Material](https://github.com/bollnh/hexo-theme-material) 主题驱动，基于 [Hexo](https://hexo.io/zh-cn/) 框架。
 
-### Create a new post
+[配置](https://neko-dev.github.io/material-theme-docs/#/) 相关内容摘录如下：
 
-``` bash
-$ hexo new "My New Post"
+# 开始创作
+
+## 创建文章
+
+### 使用命令行
+```shell
+hexo new <title>
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+### 手动创建
+在 hexo 主目录下 `source -> _posts` 新建以 `.md` 为后缀的文件。
 
-### Run server
+## Front-matter
 
-``` bash
-$ hexo server
-```
+[Front-matter - 官方介绍](https://hexo.io/zh-cn/docs/front-matter.html)
 
-More info: [Server](https://hexo.io/docs/server.html)
+| 参数          | 描述                | 默认值       |
+|:--            |:--                  |:--           |
+| `layout`      | 布局                | post         |
+| `title`       | 标题                | 文件名       |
+| `date`        | 建立日期            | 文件建立日期 |
+| `updated`     | 更新日期            | 文件更新日期 |
+| `tags`        | 标签（不适用于分页）|              |
+| `categories`  | 分类（不适用于分页）|              |
+| `permalink`   | 覆盖文章网址        |              |
+| `thumbnail`   | 缩略图地址          |              |
+| `toc`         | 显示 TOC 按钮       | true         |
+| `comment`     | 显示评论            | true         |
+| `notag`       | 不生成标签按钮      | false        |
+| `top`         | 置顶                | false        |
+| `mathJax`         | 启用 Mathjax       | false        |
 
-### Generate static files
+## 缩略图功能
 
-``` bash
-$ hexo generate
-```
+在 Material 主题中，每个 Scheme 都有缩略图功能。
+只需要在 `Front-matter` 中添加参数 `thumbnail: `，然后填入缩略图地址即可。
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+### Paradox
 
-### Deploy to remote sites
+此 Scheme 如果没有自定义缩略图，则使用默认随机缩略图，随机缩略图目录位于主题文件夹下 `source -> img -> random`。
+随机缩略图可添加自己喜好的图片，格式为 `<num>.png` 。然后在 **主题配置文件** 中 `thumbnail:random_amount` 修改缩略图数量。
 
-``` bash
-$ hexo deploy
-```
+### Isolation
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+此 Scheme 只会显示已自定义缩略图。
+
+如果想添加自定义页面的入口，请参考 [独立页面](/intro/#pages)。
