@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>你好！世界 👋</title>
+      <link href="/2021/06/22/hello-world/"/>
+      <url>/2021/06/22/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>本博客采用 <a href="https://github.com/bollnh/hexo-theme-material">Material</a> 主题驱动，基于 <a href="https://hexo.io/zh-cn/">Hexo</a> 框架。</p><p><a href="https://neko-dev.github.io/material-theme-docs/#/">配置</a> 相关内容摘录如下：</p><h1 id="开始创作"><a href="#开始创作" class="headerlink" title="开始创作"></a>开始创作</h1><h2 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h2><h3 id="使用命令行"><a href="#使用命令行" class="headerlink" title="使用命令行"></a>使用命令行</h3><pre><code class="shell">hexo new &lt;title&gt;</code></pre><h3 id="手动创建"><a href="#手动创建" class="headerlink" title="手动创建"></a>手动创建</h3><p>在 hexo 主目录下 <code>source -&gt; _posts</code> 新建以 <code>.md</code> 为后缀的文件。</p><h2 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h2><p><a href="https://hexo.io/zh-cn/docs/front-matter.html">Front-matter - 官方介绍</a></p><table><thead><tr><th align="left">参数</th><th align="left">描述</th><th align="left">默认值</th></tr></thead><tbody><tr><td align="left"><code>layout</code></td><td align="left">布局</td><td align="left">post</td></tr><tr><td align="left"><code>title</code></td><td align="left">标题</td><td align="left">文件名</td></tr><tr><td align="left"><code>date</code></td><td align="left">建立日期</td><td align="left">文件建立日期</td></tr><tr><td align="left"><code>updated</code></td><td align="left">更新日期</td><td align="left">文件更新日期</td></tr><tr><td align="left"><code>tags</code></td><td align="left">标签（不适用于分页）</td><td align="left"></td></tr><tr><td align="left"><code>categories</code></td><td align="left">分类（不适用于分页）</td><td align="left"></td></tr><tr><td align="left"><code>permalink</code></td><td align="left">覆盖文章网址</td><td align="left"></td></tr><tr><td align="left"><code>thumbnail</code></td><td align="left">缩略图地址</td><td align="left"></td></tr><tr><td align="left"><code>toc</code></td><td align="left">显示 TOC 按钮</td><td align="left">true</td></tr><tr><td align="left"><code>comment</code></td><td align="left">显示评论</td><td align="left">true</td></tr><tr><td align="left"><code>notag</code></td><td align="left">不生成标签按钮</td><td align="left">false</td></tr><tr><td align="left"><code>top</code></td><td align="left">置顶</td><td align="left">false</td></tr><tr><td align="left"><code>mathJax</code></td><td align="left">启用 Mathjax</td><td align="left">false</td></tr></tbody></table><h2 id="缩略图功能"><a href="#缩略图功能" class="headerlink" title="缩略图功能"></a>缩略图功能</h2><p>在 Material 主题中，每个 Scheme 都有缩略图功能。<br>只需要在 <code>Front-matter</code> 中添加参数 <code>thumbnail: </code>，然后填入缩略图地址即可。</p><h3 id="Paradox"><a href="#Paradox" class="headerlink" title="Paradox"></a>Paradox</h3><p>此 Scheme 如果没有自定义缩略图，则使用默认随机缩略图，随机缩略图目录位于主题文件夹下 <code>source -&gt; img -&gt; random</code>。<br>随机缩略图可添加自己喜好的图片，格式为 <code>&lt;num&gt;.png</code> 。然后在 <strong>主题配置文件</strong> 中 <code>thumbnail:random_amount</code> 修改缩略图数量。</p><h3 id="Isolation"><a href="#Isolation" class="headerlink" title="Isolation"></a>Isolation</h3><p>此 Scheme 只会显示已自定义缩略图。</p><p>如果想添加自定义页面的入口，请参考 <a href="/intro/#pages">独立页面</a>。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
