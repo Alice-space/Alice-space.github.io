@@ -41,4 +41,4 @@ jobs:
           access-key-secret: ${{ secrets.ALIYUN_ACCESSKEY_SECRET }}
 
       - name: cp files to aliyun
-        run: ossutil cp -rf public oss://alicespace-cn/
+        run: ossutil cp -rf public oss://alicespace/
