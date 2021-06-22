@@ -63,7 +63,7 @@ thumbnail:
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    bgimg: "/img/daily_pic.png"
+    bgimg: "/img/bg.png"
     bing:
         enable: false
         parameter:
@@ -74,7 +74,7 @@ img:
     logo: "/img/profile.png"
     avatar: "/img/profile.png"
     daily_pic: "/img/bg.jpg"
-    sidebar_header: "/img/bg.jpg"
+    sidebar_header: "/img/daily_pic.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
         # upyun_logo:
