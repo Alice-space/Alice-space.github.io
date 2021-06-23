@@ -1,6 +1,6 @@
 ---
 title: 你好！世界 👋
-thumbnail: '/img/bg.jpg'
+thumbnail: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/bg.jpg"
 ---
 
 本博客采用 [Material](https://github.com/bollnh/hexo-theme-material) 主题驱动，基于 [Hexo](https://hexo.io/zh-cn/) 框架。

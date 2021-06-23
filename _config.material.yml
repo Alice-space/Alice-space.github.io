@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/profile.png"
-    high_res_favicon: "/img/profile.png"
-    apple_touch_icon: "/img/profile.png"
+    favicon: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/profile.png"
+    high_res_favicon: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/profile.png"
+    apple_touch_icon: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/profile.png"
     keywords:
     site_verification:
         google:
@@ -63,7 +63,7 @@ thumbnail:
 #        type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    bgimg: "/img/background.jpg"
+    bgimg: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/background.jpg"
     bing:
         enable: false
         parameter:
@@ -71,11 +71,11 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/profile.png"
-    avatar: "/img/profile.png"
-    daily_pic: "/img/bg.jpg"
-    sidebar_header: "/img/sidebar_header.png"
-    random_thumbnail: "/img/random/material-"
+    logo: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/profile.png"
+    avatar: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/profile.png"
+    daily_pic: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/bg.jpg"
+    sidebar_header: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/sidebar_header.png"
+    random_thumbnail: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/random/material-"
     footer_image:
         # upyun_logo:
         #     link: "https://www.upyun.com/"
