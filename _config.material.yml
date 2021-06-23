@@ -34,8 +34,8 @@ scheme: Paradox
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "Welcome to Alice_space Blog"
-    theme_color: "#00BCD4"
-    theme_sub_color: "#B2EBF2"
+    theme_color: "#FFFFFF"
+    theme_sub_color: "#FFFFFF"
     hyperlink_color: "#757575"
     button_color: "#03A9F4"
     android_chrome_color: "#00BCD4"
