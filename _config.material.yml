@@ -276,9 +276,10 @@ comment:
 #     swiftype | google | local
 search:
     use: local
-    swiftype_key:
     path: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/search.xml"
     field: post
+    swiftype_key:
+
 
 # Analytics Systems
 # Available value:
