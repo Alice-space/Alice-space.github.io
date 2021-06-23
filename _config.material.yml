@@ -34,8 +34,8 @@ scheme: Paradox
 # UI & UX: slogan, color, effect
 uiux:
     slogan: "Welcome to Alice_space Blog"
-    theme_color: "#FFFFFF"
-    theme_sub_color: "#FFFFFF"
+    theme_color: "#00BCD4"
+    theme_sub_color: "#B2EBF2"
     hyperlink_color: "#757575"
     button_color: "#03A9F4"
     android_chrome_color: "#00BCD4"
@@ -74,7 +74,7 @@ img:
     logo: "/img/profile.png"
     avatar: "/img/profile.png"
     daily_pic: "/img/bg.jpg"
-    sidebar_header: "/img/daily_pic.png"
+    sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
     footer_image:
         # upyun_logo:
@@ -318,14 +318,14 @@ vendors:
 #   For example
 #       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
     # jQuery 2.2.0
-    jquery: https://cdn.jsdelivr.net/npm/jquery@2.2.0/dist/jquery.min.js
+    jquery: https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
     # nprogress 0.2.0
     nprogress: https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js
     # FontAwesome 4.5.0
-    fontawesome: https://cdn.jsdelivr.net/npm/fontawesome@4.5.0/index.min.js
+    fontawesome: https://cdn.jsdelivr.net/npm/fontawesome@5.6.3/index.min.js
     # MathJax 2.7.0-2.7.1
-    mathjax: 
+    mathjax: https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/node-main.min.js
     # Prettify r298 (only prettify.js)
     prettify: https://cdn.jsdelivr.net/npm/prettify@0.1.7/prettify.min.js
     # Material Icons 3.0.1
-    material_icons: 
+    material_icons: https://cdn.jsdelivr.net/npm/@emotion-icons/material@3.14.0/index.min.js
