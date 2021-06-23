@@ -18,13 +18,15 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          node -v
-          npm -v
-          npm install hexo-cli
-          npx hexo version
-          npm install
-          npx hexo clean
-          npx hexo generate
+          node -v && npm -v
+          npm install hexo-cli gulp-cli
+          npx hexo version && npx gulp -v
+          npm install && npm audit fix --force
+          npx hexo clean && npx hexo generate && npx gulp
+      
+      - name: Purge CDN
+        run: |
+          curl "https://purge.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/"
       
       - name: Deploy 🚀 
         uses: JamesIves/github-pages-deploy-action@4.1.4

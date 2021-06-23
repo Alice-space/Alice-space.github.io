@@ -277,8 +277,8 @@ comment:
 search:
     use: local
     swiftype_key:
-    path: search.xml
-    field: all
+    path: "https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/search.xml"
+    field: post
 
 # Analytics Systems
 # Available value:
