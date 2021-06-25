@@ -50,7 +50,7 @@ http://203.107.1.33/191607/resolve?host=upos-sz-mirrorks3.bilivideo.com&query=4,
    sudo mtr 124.205.208.6 -I en0
    ```
 
-   ![追踪结果](https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/post/bilivedio-fail.png)
+   ![追踪结果](https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/post/bilivedio-fail/bilivedio-fail.png)
 
    其中`219.158.3.65`是北京联通的 IP ，可能是汇聚层的设备，居然丢包率高达50%！不知道是策略还是故障。
 
