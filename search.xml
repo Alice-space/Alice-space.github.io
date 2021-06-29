@@ -21,7 +21,7 @@
       <link href="/2021/06/28/yubikey-piv-macos/"/>
       <url>/2021/06/28/yubikey-piv-macos/</url>
       
-        <content type="html"><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol><li><p>生成密钥和证书</p><ol><li>生成密钥</li></ol><pre><code class="bash">ykman piv generate-key 9a --algorithm ECCP256 /tmp/9a.pubykman piv generate-key 9d --algorithm ECCP256 /tmp/9d.pub</code></pre><pre><code class="c">int main()&#123;    return 0;&#125;</code></pre><ol start="2"><li>生成证书，其中subject可以改名字</li></ol><pre><code class="bash">ykman piv generate-certificate 9a --subject &quot;YubiKey 5&quot; /tmp/9a.pubykman piv generate-certificate 9d --subject &quot;YubiKey 5&quot; /tmp/9d.pub</code></pre><p> 把YubiKey插拔一下就可以了，然后根据弹出的窗口进行配对。<code>sudo</code> 命令也会自动配置</p><p> <img src="https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/post/yubikey-piv-macos/yubikey-macos-sudo.png" alt="yubikey-macos-sudo"></p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol><li><p>生成密钥和证书</p><ol><li>生成密钥</li></ol><pre><code class="bash">ykman piv generate-key 9a --algorithm ECCP256 /tmp/9a.pubykman piv generate-key 9d --algorithm ECCP256 /tmp/9d.pub</code></pre><ol><li>生成证书，其中subject可以改名字</li></ol><pre><code class="bash">ykman piv generate-certificate 9a --subject &quot;YubiKey 5&quot; /tmp/9a.pubykman piv generate-certificate 9d --subject &quot;YubiKey 5&quot; /tmp/9d.pub</code></pre><p> 把YubiKey插拔一下就可以了，然后根据弹出的窗口进行配对。<code>sudo</code> 命令也会自动配置</p><p> <img src="https://cdn.jsdelivr.net/gh/Alice-space/alice-space.github.io@gh-pages/img/post/yubikey-piv-macos/yubikey-macos-sudo.png" alt="yubikey-macos-sudo"></p></li></ol>]]></content>
       
       
       
