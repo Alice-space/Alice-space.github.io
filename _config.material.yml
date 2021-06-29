@@ -135,7 +135,7 @@ prettify:
 hanabi:
     enable: true
     line_number: true
-    includeDefaultColors: false
+    includeDefaultColors: true
     customColors:
 
 # Post License

@@ -9,15 +9,23 @@ tags:
 1. 生成密钥和证书
     1. 生成密钥
 
-        `ykman piv generate-key 9a --algorithm ECCP256 /tmp/9a.pub`
+    ```bash
+    ykman piv generate-key 9a --algorithm ECCP256 /tmp/9a.pub
+    ykman piv generate-key 9d --algorithm ECCP256 /tmp/9d.pub
+    ```
 
-        `ykman piv generate-key 9d --algorithm ECCP256 /tmp/9d.pub`
-
+    ```c
+    int main()
+    {
+        return 0;
+    }
+    ```
     2. 生成证书，其中subject可以改名字
 
-        `ykman piv generate-certificate 9a --subject "YubiKey 5" /tmp/9a.pub`
-
-        `ykman piv generate-certificate 9d --subject "YubiKey 5" /tmp/9d.pub`
+    ```bash
+    ykman piv generate-certificate 9a --subject "YubiKey 5" /tmp/9a.pub
+    ykman piv generate-certificate 9d --subject "YubiKey 5" /tmp/9d.pub
+    ```
 
     把YubiKey插拔一下就可以了，然后根据弹出的窗口进行配对。`sudo` 命令也会自动配置
 
