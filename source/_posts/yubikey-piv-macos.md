@@ -13,14 +13,8 @@ tags:
     ykman piv generate-key 9a --algorithm ECCP256 /tmp/9a.pub
     ykman piv generate-key 9d --algorithm ECCP256 /tmp/9d.pub
     ```
-
-    ```c
-    int main()
-    {
-        return 0;
-    }
-    ```
-    2. 生成证书，其中subject可以改名字
+    
+    1. 生成证书，其中subject可以改名字
 
     ```bash
     ykman piv generate-certificate 9a --subject "YubiKey 5" /tmp/9a.pub
